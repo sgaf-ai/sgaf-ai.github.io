@@ -8,14 +8,12 @@ author: Scott CJX
     console.log({{request}});
 </script>
 
-{% assign event.name = "Event Name" %}
-{% assign event.date = "Event Date" %}
-{% assign event.time = "Event Time" %}
-{% assign event.location = "Event Location" %}
+{% assign event.name = "PERSCOM 11" %}
+{% assign event.date = "9 Nov 2022" %}
+{% assign event.time = "0900" %}
+{% assign event.location = "Our Tampines Hub" %}
 
-{% include sidebar.html %}
-
-{% include landing_page.html vars:event %}
+{% include landing_page.html vars=event %}
 
 <hr>
 

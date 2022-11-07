@@ -4,6 +4,10 @@ author: Scott CJX
 
 # Landing Page
 
+<script>
+    console.log({{request}});
+</script>
+
 {% assign event.name = "Event Name" %}
 {% assign event.date = "Event Date" %}
 {% assign event.time = "Event Time" %}

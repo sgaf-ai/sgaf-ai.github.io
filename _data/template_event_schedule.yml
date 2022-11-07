@@ -4,7 +4,7 @@ event_schedule:
   - time: "0900"
     description: "Commencement of Event"
   - time: "0905"
-    description: "Opening Remakrs by Comd PERSCOM"
+    description: "Opening Remarks by Comd PERSCOM"
   - time: "0915"
     description: "Sharing on Mental Well-Being through Self-Care Activity"
   - time: "0920"

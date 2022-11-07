@@ -1,4 +1,6 @@
 
-{% for routes in site.data.routes %}
-[{{ route[0] }}]: {{ route[1] }}
-{% endfor %}
+<ul>
+  {% for item in site.data.routes %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a> </li>
+  {% endfor %}
+</ul>

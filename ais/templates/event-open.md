@@ -5,7 +5,7 @@ author: Scott CJX
 # Landing Page
 
 <script>
-  event = {
+  var event = {
     "name": "PERSCOM 11",
     "date": "9 Nov 2022",
     "time": "09:00 AM",
@@ -14,7 +14,7 @@ author: Scott CJX
   console.log({{request}});
   console.log({{event}});
 
-  {% assign vars=event %}
+  {% assign vars = event %}
   
 </script>
 

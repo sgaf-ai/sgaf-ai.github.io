@@ -4,9 +4,14 @@ author: Scott CJX
 
 # Landing Page
 
+{% assign event.name = "Event Name" %}
+{% assign event.date = "Event Date" %}
+{% assign event.time = "Event Time" %}
+{% assign event.location = "Event Location" %}
+
 {% include sidebar.html %}
 
-{% include landing_page.html %}
+{% include landing_page.html vars:event %}
 
 <hr>
 

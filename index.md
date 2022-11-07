@@ -17,4 +17,4 @@ WIP
 ## Create New AI
 WIP
 
-{% incldue routes.html %}
+{% include routes.html %}

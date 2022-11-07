@@ -6,4 +6,8 @@ author: Scott CJX
 
 {% include landing_page.html %}
 
+<hr>
+
 {% include event_schedule_page.html %}
+
+<hr>

@@ -1,4 +1,5 @@
 ---
+layout: default
 author: Scott CJX
 ---
 
@@ -15,3 +16,5 @@ WIP
 
 ## Create New AI
 WIP
+
+{% incldue routes.html %}

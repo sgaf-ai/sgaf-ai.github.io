@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<div class="container">
+  <table>
+    <tr>
+      <th>Time (Hrs)</th>
+      <th>Event</th>
+    </tr>
+
+    {% for item in site.data.template_event_schedule.event_schedule %}
+      <tr>
+        <td>{{ item.time }}</td>
+        <td>{{ item.description }}</td>
+      </tr>
+    {% endfor %}
+
+  </table>
+</div>

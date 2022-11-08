@@ -6,6 +6,8 @@ event_uid: "perscom-11"
 # Landing Page
 
 {% assign event_data = nil %}
+
+{% comment %}
 {% for event_hash in site.data.event_list.events %}
 
   {% if event_hash.uid == page.event_uid %}
@@ -14,6 +16,7 @@ event_uid: "perscom-11"
     {% break %}
   {% endif %}
 {% endfor %}
+{% endcomment %}
 
 {% for event_data_fold in site.data.event_datas %}
   {% assign event_data_item = event_data_fold[1] %}

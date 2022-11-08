@@ -3,7 +3,13 @@ name: PERSCOM 11
 url: /ais/PERSCOM11
 date: "9 Nov 2022"
 time: "09:00 AM"
-location: "Our Tampines Hub"
+location: 
+  name: "Our Tampines Hub"
+  address: "1 Tampines Walk, Singapore 528523"
+  google map:
+    link: "https://goo.gl/maps/3nw2UtmWZJ85d3Kh7"
+    embed_link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7051298254432!2d103.938051614754!3d1.353492699012845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da3d0d853b8fbb%3A0x81b222cd195132d4!2sOur%20Tampines%20Hub!5e0!3m2!1sen!2ssg!4v1667895760143!5m2!1sen!2ssg"
+  additional_instructions: Null
 schedule:
   filep: "/data/perscom11/event_schedule.yml"
 logo: 

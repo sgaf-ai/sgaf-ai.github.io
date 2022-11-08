@@ -3,7 +3,13 @@ name: An Average name for an event
 url: /ais/template-event-open-1
 date: "01 Jan 2023"
 time: "09:00 AM"
-location: "A location for your event"
+location: 
+  name: "A location for your event"
+  address: "1 Location Place, Singapore 123456"
+  google map:
+    link: ""
+    embed_link: ""
+  additional_instructions: Null
 schedule:
   filep: "/data/template-event-open-1/event_schedule.yml"
 logo: 

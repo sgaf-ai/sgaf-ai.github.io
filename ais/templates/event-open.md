@@ -24,7 +24,8 @@ event_uid: "perscom-11"
 
 {% else %}
 
-{% include landing_page.html var=event_data | jsonify %}
+{% assign var=event_data %}
+{% include landing_page.html %}
 
 <hr>
 

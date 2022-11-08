@@ -1,17 +1,13 @@
 ---
 author: Scott CJX
+event_uid: "PERSCOM11"
 ---
 
-# Landing Page 
+# Landing Page
 
-{% comment %}
-<!-- {% assign event_name = "PERSCOM 11" %}
-{% assign event_date = "9 Nov 2022" %}
-{% assign event_time = "0900" %}
-{% assign event_location = "Our Tampines Hub" %} -->
-{% endcomment %}
+{% assign event_data = site.data.events.items[page.event_uid] %} -->
 
-{% include landing_page.html var={{ perscom11 }} %}
+{% include landing_page.html var=event_data %}
 
 <hr>
 

@@ -6,12 +6,13 @@ layout: default
 ================================= DO NOT MODIFY =================================
 {% endcomment %}
 
-_> {{ page.event_uid }}
-
 {% assign event_data = nil %}
 {% for event_data_fold in site.data.event_datas %}
   {% assign event_data_item = event_data_fold[1] %}
-  {{ event_data_item.event_info.uid }} \n
+  
+  {{ page.event_uid }} ?= {{ event_data_item.event_info.uid }} = {% event_data_item.event_info.uid == {{ page.event_uid }} %}
+  <br>
+
   {% if event_data_item.event_info.uid == {{ page.event_uid }} %}
 
     {% assign event_data = event_data_item %}

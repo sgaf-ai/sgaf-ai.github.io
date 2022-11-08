@@ -1,5 +1,5 @@
 ---
 layout: "event"
 author: Scott CJX
-event_uid: perscom-11
+event_uid: template-event-open-1
 ---

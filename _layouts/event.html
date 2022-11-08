@@ -9,16 +9,11 @@ layout: default
 {% assign event_data = nil %}
 {% for event_data_fold in site.data.event_datas %}
   {% assign event_data_item = event_data_fold[1] %}
-  
-  {{ page.event_uid }} ?= {{ event_data_item.event_info.uid }} 
-  <br>
 
   {% if event_data_item.event_info.uid == page.event_uid %}
 
     {% assign event_data = event_data_item %}
 
-    --> {{ event_data_item }}
-    
     {% break %}
   {% endif %}
 {% endfor %}

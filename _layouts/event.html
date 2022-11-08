@@ -13,7 +13,7 @@ layout: default
   {{ page.event_uid }} ?= {{ event_data_item.event_info.uid }} 
   <br>
 
-  {% if {{ event_data_item.event_info.uid }} == {{ page.event_uid }} %}
+  {% if event_data_item.event_info.uid == page.event_uid %}
 
     {% assign event_data = event_data_item %}
 

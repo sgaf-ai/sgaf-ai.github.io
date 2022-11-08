@@ -1,0 +1,8 @@
+uid: scs-gp-04-22
+name: SCS GP 0422
+url: /ais/PERSCOM11
+date: "9 Nov 2022"
+time: "09:00 AM"
+location: "Our Tampines Hub"
+schedule:
+  filep: "/data/perscom11/event_schedule.yml"

@@ -11,7 +11,9 @@
     </tr>
 
     {% for item in var.event_schedule %}
-    <!-- {% for item in site.data.template_event_schedule.event_schedule %} -->
+    {% comment %}
+    {% for item in site.data.template_event_schedule.event_schedule %}
+    {% endcomment %}
       <tr>
         <td>{{ item.time }}</td>
         <td>{{ item.description }}</td>

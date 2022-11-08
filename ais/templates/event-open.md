@@ -16,7 +16,7 @@ event_uid: "perscom-11"
 {% endfor %}
 
 {% for event_data_item in site.data.event_datas %}
-  {{ event_data_item }}
+  {{ event_data_item.event_info }}
   \n
 {% endfor %}  
 

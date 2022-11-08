@@ -1,5 +1,6 @@
 ---
-layout: event.html
+layout: "event"
+author: "Scott CJX"
 ---
 
 {{ event_uid }}

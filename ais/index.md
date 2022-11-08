@@ -14,7 +14,7 @@ author: Scott CJX
 {% endfor %}
 
 {% if event_data == nil %}
-  {% include event_404 %}
+  {% include event_404.html %}
 {% else %}
 
 {% include landing_page.html %}

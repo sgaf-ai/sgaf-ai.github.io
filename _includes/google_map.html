@@ -1,5 +1,5 @@
-{% unless event_data.location.embed_link ==falsy %}
+{% if event_data.location.embed_link != falsy %}
 <iframe width="600" height="450" style="border:0" loading="lazy" allowfullscreen="false"
     referrerpolicy="no-referrer-when-downgrade" src="{{ event_data.location.google_map.embed_link }}">
 </iframe>
-{% endunless %}
+{% endif %}

@@ -21,7 +21,7 @@ event_uid: "perscom-11"
 {% for event_data_fold in site.data.event_datas %}
   {% assign event_data_item = event_data_fold[1] %}
   {{ event_data_item }}
-  {% if event_data_item.event_info.event_uid == page.event_uid %}
+  {% if event_data_item.event_info.uid == page.event_uid %}
     {% assign event_data = event_data_item %}
     --> {{ event_data }}
     {% break %}

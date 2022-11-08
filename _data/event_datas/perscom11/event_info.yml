@@ -6,3 +6,5 @@ time: "09:00 AM"
 location: "Our Tampines Hub"
 schedule:
   filep: "/data/perscom11/event_schedule.yml"
+logo: 
+  uri: "https://perscom11.my.canva.site/images/2ca06cd269a335ef3613020b8a8c05a7.png"

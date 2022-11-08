@@ -3,8 +3,6 @@ author: Scott CJX
 event_uid: "perscom-11"
 ---
 
-# Landing Page
-
 {% assign event_data = nil %}
 {% for event_data_fold in site.data.event_datas %}
   {% assign event_data_item = event_data_fold[1] %}

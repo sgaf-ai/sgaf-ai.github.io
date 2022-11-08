@@ -1,0 +1,10 @@
+uid: template-event-open-1
+name: An Average name for an event
+url: /ais/template-event-open-1
+date: "01 Jan 2023"
+time: "09:00 AM"
+location: "A location for your event"
+schedule:
+  filep: "/data/template-event-open-1/event_schedule.yml"
+logo: 
+  uri: "https://perscom11.my.canva.site/images/2ca06cd269a335ef3613020b8a8c05a7.png"

@@ -1,8 +1,3 @@
----
-layout: "event"
-author: "Scott CJX"
----
-
 {{ event_uid }}
 
 {% comment %}

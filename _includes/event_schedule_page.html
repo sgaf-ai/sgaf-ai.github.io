@@ -10,7 +10,7 @@
       <th>Event</th>
     </tr>
 
-    {% for item in var.event_schedule %}
+    {% for item in var.event_schedule.event_schedule %}
       <tr>
         <td>{{ item.time }}</td>
         <td>{{ item.description }}</td>

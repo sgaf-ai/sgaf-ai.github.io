@@ -14,6 +14,7 @@ event_uid: "perscom-11"
   {{ event_hash.uid }}
   {% if event_hash.event_info.uid == page.event_uid %}
     {% assign event_data = event_hash %}
+    i got it :: {{ event_data }}
     {% break %}
   {% endif %}
 {% endfor %}

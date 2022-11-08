@@ -2,27 +2,4 @@
 author: Scott CJX
 ---
 
-{% assign event_data = nil %}
-{% for event_data_fold in site.data.event_datas %}
-  {% assign event_data_item = event_data_fold[1] %}
-  {% if event_data_item.event_info.uid == page.event_uid %}
-
-    {% assign event_data = event_data_item %}
-    
-    {% break %}
-  {% endif %}
-{% endfor %}
-
-{% if event_data == nil %}
-  {% include event_404.html %}
-{% else %}
-
-{% include landing_page.html %}
-
-<hr>
-
-{% include event_schedule_page.html %}
-
-<hr>
-
-{% endif %}
+## Landing page for AIs

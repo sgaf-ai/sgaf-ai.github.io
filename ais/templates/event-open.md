@@ -5,19 +5,19 @@ event_uid: "perscom-11"
 
 # Landing Page
 
-<!-- {% assign event_data = site.data.events.items[page.event_uid] %} -->
-
-{{ page.event_uid }}
-
 {% assign event_data = nil %}
 {% for event_hash in site.data.event_list.events %}
-  {{ event_hash.uid }}
+
   {% if event_hash.uid == page.event_uid %}
     {% assign event_data = event_hash %}
-    i got it :: {{ event_data }}
+    --> {{ event_data }}
     {% break %}
   {% endif %}
 {% endfor %}
+
+:: datas
+
+{{ site.data.event_datas }}
 
 {% if event_data == nil %}
 

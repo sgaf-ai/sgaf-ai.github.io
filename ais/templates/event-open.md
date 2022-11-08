@@ -14,7 +14,7 @@ event_uid: "perscom-11"
   {% endif %}
 {% endfor %}
 
-{% include landing_page.html var=event_data %}
+{% include landing_page.html with event_data as var %}
 
 <hr>
 

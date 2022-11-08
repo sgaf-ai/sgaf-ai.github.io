@@ -2,30 +2,16 @@
 author: Scott CJX
 ---
 
-# Landing Page
-
-<script>
-  var event = {
-    "name": "PERSCOM 11",
-    "date": "9 Nov 2022",
-    "time": "09:00 AM",
-    "location": "Our Tampines Hub"
-  }
-  console.log({{request}});
-  console.log({{event}});
-
-  {% assign vars = event %}
-  
-</script>
+# Landing Page 
 
 {% comment %}
-<!-- {% assign event.name = "PERSCOM 11" %}
-{% assign event.date = "9 Nov 2022" %}
-{% assign event.time = "0900" %}
-{% assign event.location = "Our Tampines Hub" %} -->
+<!-- {% assign event_name = "PERSCOM 11" %}
+{% assign event_date = "9 Nov 2022" %}
+{% assign event_time = "0900" %}
+{% assign event_location = "Our Tampines Hub" %} -->
 {% endcomment %}
 
-{% include landing_page.html vars=vars %}
+{% include landing_page.html var={{ perscom11 }} %}
 
 <hr>
 

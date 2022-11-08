@@ -7,6 +7,8 @@ event_uid: "perscom-11"
 
 <!-- {% assign event_data = site.data.events.items[page.event_uid] %} -->
 
+{{ page.event_uid }}
+
 {% assign event_data = nil %}
 {% for event_hash in site.data.event_list.events %}
   {{ event_hash.uid }}

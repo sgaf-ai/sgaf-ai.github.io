@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: event.html
 ---
 
 {{ event_uid }}

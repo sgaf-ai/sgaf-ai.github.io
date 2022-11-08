@@ -12,7 +12,7 @@ event_uid: "perscom-11"
 {% assign event_data = nil %}
 {% for event_hash in site.data.event_list.events %}
   {{ event_hash.uid }}
-  {% if event_hash.event_info.uid == page.event_uid %}
+  {% if event_hash.uid == page.event_uid %}
     {% assign event_data = event_hash %}
     i got it :: {{ event_data }}
     {% break %}

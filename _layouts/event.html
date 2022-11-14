@@ -14,10 +14,11 @@ layout: default
   {% endif %}
 {% endfor %}
 
-
 {% if event_data == nil %}
   {% include event_404.html %}
 {% else %}
+
+{% include theme_bg.html bg_url=event_data.asset_links.bg_url._1 %}
 
 {% include event_landing_page.html event_data=event_data %}
 

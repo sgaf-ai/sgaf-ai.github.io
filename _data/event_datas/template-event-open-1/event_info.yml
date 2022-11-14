@@ -12,5 +12,4 @@ location:
   additional_instructions: ""
 schedule:
   filep: "/data/template-event-open-1/event_schedule.yml"
-logo: 
-  uri: ""
+

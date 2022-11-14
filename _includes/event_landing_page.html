@@ -9,19 +9,19 @@
 
             <div class="container">
                 <div class="row">
-                    <h2>{{ event_data.event_info.name }}</h2>
+                    <h2>{{ include.event_data.event_info.name }}</h2>
                 </div>
 
                 <div class="row">
-                    <h4>{{ event_data.event_info.date }}</h4>
+                    <h4>{{ include.event_data.event_info.date }}</h4>
                 </div>
 
                 <div class="row">
-                    <h4>{{ event_data.event_info.time }}</h4>
+                    <h4>{{ include.event_data.event_info.time }}</h4>
                 </div>
 
                 <div class="row">
-                    <h4>{{ event_data.event_info.location.name }}</h4>
+                    <h4>{{ include.event_data.event_info.location.name }}</h4>
                 </div>
 
             </div>
@@ -30,7 +30,7 @@
 
         <!-- div for logo -->
         <div class="col-sm-6">
-            <img src="{{ event_data.event_info.logo.uri }}" alt="event logo" style="width: 250px;"/>
+            <img src="{{ include.event_data.event_info.logo.uri }}" alt="event logo" style="width: 250px;"/>
         </div>
 
     </div>

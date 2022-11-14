@@ -8,9 +8,9 @@ location:
   address: "1 Location Place, Singapore 123456"
   google_map:
     link: ""
-    embed_link: ""
-  additional_instructions: Null
+    embed_link: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255285.00486804327!2d103.51906163281252!3d1.2764793999999968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1911f12998e9%3A0x43e454b88753032a!2sGoogle%20Asia%20Pacific%2C%20Singapore!5e0!3m2!1sen!2ssg!4v1668396197331!5m2!1sen!2ssg"
+  additional_instructions: ""
 schedule:
   filep: "/data/template-event-open-1/event_schedule.yml"
 logo: 
-  uri: "https://perscom11.my.canva.site/images/2ca06cd269a335ef3613020b8a8c05a7.png"
+  uri: ""

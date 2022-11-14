@@ -36,5 +36,4 @@ Proof of concept Digital Administrative Instruction a quintessential accessibile
 - Internet facing website that can be easily accessed via Mobile Phones/ Tablets/ Computers.
 - Single event on a single webpage
 
-Completed POC @ [PERSCOM 11 DAI](perscom11.my.canva.site)
-
+Completed POC @ [PERSCOM 11 DAI](https://perscom11.my.canva.site)

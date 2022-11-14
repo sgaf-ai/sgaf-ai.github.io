@@ -1,0 +1,53 @@
+
+Key Aspects to DAI:
+  Event:
+    - Date
+    - Time
+    - Location
+    - Attire
+    - Program Schedule
+    - Scope of Event:
+      - Multi-Service
+      - Service
+      - Division
+      - Battalian
+      - Formation
+      - Unit
+
+DAI Creation Form:
+  Event Organisor:
+    - Phone Number
+    - Rank
+    - Name
+    - OSN Email 
+    - Defencemail Email
+    - Formation
+    - Unit
+  
+  Calendar Function:
+    - Calendar Link
+  
+# ============================================================================================================
+
+Ideations:
+# ============================================================================================================
+  Calendar Function:
+    - get user to embed -> google calendar, outlook calendar, apple calendar
+# ============================================================================================================
+  Carpark Label:
+      pre-event:
+          - collate nominal roll of (vehicle ident & personnel ident) -> can be used with registration
+          - upload nominal roll to system
+          - system:
+              per indiv:
+                  - generate QR code + info text [fig 1]
+                  - email personnel carkpark label
+                  - save information to event database
+      during-event:
+          - event carpark personnel will scan carkpark label QR code (via event website)
+          - event carpark personnel will be able to:
+              - mark vehicle & owner presence
+              - view and direct vehicle to allocated carpark lot (if appl)
+          - event database will update thier attendance -> can allow for live status
+
+

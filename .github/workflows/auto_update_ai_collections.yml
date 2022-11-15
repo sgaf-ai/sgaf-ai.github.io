@@ -1,3 +1,7 @@
+name: update ai collections
+
+on: push
+
 jobs:
   build:
 runs-on: ubuntu-latest

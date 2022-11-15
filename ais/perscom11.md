@@ -1,6 +1,8 @@
 ---
-layout: embed_html
+layout: empty
 author: Scott CJX
-embed_html: "perscom11.my.canva.site"
 event_uid: perscom-11
+embed_html: "perscom11.my.canva.site"
 ---
+
+{% include embed_html.html %}
